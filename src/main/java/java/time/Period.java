@@ -131,6 +131,7 @@ import java.util.regex.Pattern;
  * This class is immutable and thread-safe.
  *
  * @since 1.8
+ * 类似Duration 但以年月日来衡量一个时间段
  */
 public final class Period
         implements ChronoPeriod, Serializable {

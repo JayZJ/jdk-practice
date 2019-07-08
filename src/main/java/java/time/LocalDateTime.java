@@ -131,6 +131,7 @@ import java.util.Objects;
  * This class is immutable and thread-safe.
  *
  * @since 1.8
+ * LocalDate和LocalTime的结合体  such as {@code 2007-12-03T10:15:30}
  */
 public final class LocalDateTime
         implements Temporal, TemporalAdjuster, ChronoLocalDateTime<LocalDate>, Serializable {

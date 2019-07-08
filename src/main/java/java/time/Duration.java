@@ -129,6 +129,7 @@ import java.util.regex.Pattern;
  * This class is immutable and thread-safe.
  *
  * @since 1.8
+ * 类似Instant 但表示时间段
  */
 public final class Duration
         implements TemporalAmount, Comparable<Duration>, Serializable {
